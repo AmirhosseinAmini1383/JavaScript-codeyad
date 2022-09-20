@@ -1,0 +1,85 @@
+@import "color";
+@import "font";
+.container{
+    .sidebar{
+        width: 600px;
+        height: 600px;
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 25px;
+        }
+    }
+    .display{
+        width: 1000px;
+        height: 600px;
+        .dis-sec1{
+            #add{
+                width: 100px;
+                height: 50px;
+                border: 0;
+                font-size: 30px;
+                background: $color_blue;
+                color: $color_DarkGray;
+                border-radius: 5px;
+            }
+            #cityInput{
+                height: 3rem;
+                width: 25rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 950px) {
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    .sidebar{
+        width: 400px;
+        height: 200px;
+        border-radius: 20px 20px 0px 0px;
+        h1{
+            padding-top: 15px;
+            font-size: 20px;
+        }
+        h2{
+            padding-top: 10px;
+            font-size: 15px;
+        }
+    }
+    .display{
+        width: 400px;
+        height: 350px;
+        border-radius: 0px 0px 20px 20px;
+        .dis-sec1{
+            padding:40px 0px 40px 0px;
+            #add{
+                width: 70px;
+                height: 40px;
+                font-size: 20px;
+            }
+            #cityInput{
+                height: 3rem;
+                width: 16rem;
+                font-weight: normal;
+                font-size: 1.2rem;
+                margin-left:20px ;
+            }
+        }
+        .dis-sec2{
+            .wrapper{
+                h2{
+                    font-size:25px;
+                }
+                p{
+                    font-size:20px;
+                }
+            }
+        }
+    }
+}
+}

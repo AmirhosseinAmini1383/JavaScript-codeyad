@@ -1,0 +1,7 @@
+1- npm install -g eslint
+
+2- npm init (Enter bezan)package.json
+
+3- eslint --init (3 ravesh debugging mide behemon)
+
+4- chanta soal miporse ke bayad javab bedim

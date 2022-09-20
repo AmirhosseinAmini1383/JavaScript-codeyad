@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J22</title>
+</head>
+
+<body onload="alert('Page Is Loaded Successfully')">
+    <input type="text" onfocus="highlightinpute(this)" onblur="blurcolorinput(this)">
+    <button type="button" onclick="this.style.color='green'">Button</button>
+
+    <hr>
+
+    <select onchange="OnchangeSelectTag()" class="selectTag">
+        <option>Select Gender</option>
+        <option>Male</option>
+        <option>Famale</option>
+    </select>
+    <p id="lbl"></p>
+
+    <hr>
+
+    <div id="demo" style="width: 100px;height: 100px;background: rgb(0, 73, 133);"></div>
+
+    <!-- JS -->
+    <script>
+        function highlightinpute(element) {
+            element.style.backgroundColor = "orange";
+        }
+
+        function blurcolorinput(element) {
+            element.style.backgroundColor = "blue";
+        }
+
+        function OnchangeSelectTag() {
+            var value = document.querySelector(".selectTag").value;
+            document.querySelector('#lbl').innerHTML = "Select : " + value + " | " + "You Change Value Of Select Tag  ";
+        }
+    </script>
+    <script src="./Script.js"></script>
+</body>
+
+</html>

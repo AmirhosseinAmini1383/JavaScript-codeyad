@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Vazir;
+  src: url("font/Vazir-Medium.woff") format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Vazir";
+}
+
+body {
+  background: rgba(25, 29, 32, 0.768627451);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.container .sidebar {
+  color: rgba(25, 29, 32, 0.768627451);
+  text-align: center;
+  background-image: url("image/Tree.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 700px;
+  height: 600px;
+  border-radius: 20px 0px 0px 20px;
+}
+.container .sidebar h1 {
+  padding-top: 50px;
+  font-size: 40px;
+}
+.container .sidebar h2 {
+  padding-top: 15px;
+  font-size: 30px;
+}
+.container .display {
+  color: #ced4da;
+  background: #343a40;
+  width: 1100px;
+  height: 600px;
+  border-radius: 0px 20px 20px 0px;
+  text-align: center;
+}
+.container .display .dis-sec1 {
+  padding: 100px 0px 100px 0px;
+}
+.container .display .dis-sec1 #add {
+  width: 120px;
+  height: 60px;
+  border: 0;
+  font-size: 30px;
+  background: #85c1e9;
+  color: #343a40;
+  border-radius: 5px;
+}
+.container .display .dis-sec1 #cityInput {
+  height: 3.5rem;
+  width: 30rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  border-bottom: solid 2px #85c1e9;
+  color: #85c1e9;
+  margin-left: 27px;
+}
+.container .display .dis-sec1 #cityInput::placeholder {
+  color: #ced4da;
+}
+.container .display .dis-sec2 .wrapper h2 {
+  padding: 5px 0;
+  text-align: center;
+  font-size: 30px;
+}
+.container .display .dis-sec2 .wrapper p {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 25px;
+}/*# sourceMappingURL=style.css.map */

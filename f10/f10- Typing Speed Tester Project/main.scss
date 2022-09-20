@@ -1,0 +1,92 @@
+@import "color";
+@import "font";
+*{
+    margin: 0;
+}
+body{
+    background: $color_gray;
+}
+.header{
+    background: $color_bluedarker; 
+    width: 100%;
+    h1{
+        color: $color-white;
+        text-align: center;
+        padding: 40px;
+        font-family: $font_family_v;
+    }   
+}
+.content{
+    background: $color_blue; 
+    width: 100%;
+    p{
+        direction: rtl;
+        color: $color-white;
+        text-align: center;
+        font-size: 18px;
+        padding:30px 80px;
+        font-family: $font_family_v;
+    }   
+}
+.SpeedTest{
+    background: $color_bluedarker; 
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    .lbl{
+        color: $color-white;
+        text-align: center;
+        font-size: 18px;
+        padding:10px 0px;
+        font-family: $font_family_v;
+        margin-left: 270px;
+    }   
+    div{
+        padding-bottom: 10px;
+        .text{
+            color: $color-white;   
+            background: $color_gray;
+            border-radius: 5px;
+            display: inline-block;
+            width: 300px;
+            text-align: left;
+            padding: 20px 30px 20px 10px;
+            font-family: $font_family_v;
+        }
+    }
+    .Textarea{
+        border: 5px solid $color_gray;
+        padding: 5px; 
+        &::placeholder{
+            font-family: $font_family_v;
+            text-align: right;
+        }
+    }
+    .disflex{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 340px;
+        .timer{
+            color: $color-white;
+            font-size: 40px;
+            font-family: $font_family_v;
+        }
+        .reset{
+            color: $color-white;
+            font-family: $font_family_v;
+            border: 0px;
+            font-size: 20px;
+            background: $color_blue;
+            border-radius: 5px;
+            height: 40px;
+            width: 60px;
+            &:hover{
+                transition: 0.5s;
+                background:$color-white;
+                color: $color_blue;
+            }
+        }
+    }
+}

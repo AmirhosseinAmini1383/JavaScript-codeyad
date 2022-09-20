@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - J45</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="normal.css" rel="stylesheet" media="screen and (max-width:1300px)">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1> دریافت اطلاعات هواشناسی </h1>
+            <h2>Javascript Weather App</h2>
+        </div>
+        <div class="display">
+            <section class="dis-sec1">
+                <input type="submit" value="ثبت" id="add">
+                <input type="text" dir="rtl" placeholder="نام شهر را به انگلیسی وارد کنید..." id="cityInput">
+            </section>
+            <section class="dis-sec2">
+                <div class="wrapper">
+                    <h2 id="cityoutput"></h2>
+                    <p id="description"></p>
+                    <p id="temp"></p>
+                    <p id="wind"></p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="./Script.js"></script>
+</body>
+
+</html>

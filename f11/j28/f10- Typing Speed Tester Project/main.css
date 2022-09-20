@@ -1,0 +1,98 @@
+@font-face {
+  font-family: Vazir;
+  src: url("font/Vazir-Medium.woff") format("woff");
+}
+* {
+  margin: 0;
+}
+
+body {
+  background: #283747;
+}
+
+.header {
+  background: rgb(14, 35, 56);
+  width: 100%;
+}
+.header h1 {
+  color: #e9f0f0;
+  text-align: center;
+  padding: 40px;
+  font-family: "Vazir";
+}
+
+.content {
+  background: rgb(27, 52, 77);
+  width: 100%;
+}
+.content p {
+  direction: rtl;
+  color: #e9f0f0;
+  text-align: center;
+  font-size: 18px;
+  padding: 30px 80px;
+  font-family: "Vazir";
+}
+
+.SpeedTest {
+  background: rgb(14, 35, 56);
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+.SpeedTest .lbl {
+  color: #e9f0f0;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0px;
+  font-family: "Vazir";
+  margin-left: 270px;
+}
+.SpeedTest div {
+  padding-bottom: 10px;
+}
+.SpeedTest div .text {
+  color: #e9f0f0;
+  background: #283747;
+  border-radius: 5px;
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+  padding: 20px 30px 20px 10px;
+  font-family: "Vazir";
+}
+.SpeedTest .Textarea {
+  border: 5px solid #283747;
+  padding: 5px;
+}
+.SpeedTest .Textarea::placeholder {
+  font-family: "Vazir";
+  text-align: right;
+}
+.SpeedTest .disflex {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 340px;
+}
+.SpeedTest .disflex .timer {
+  color: #e9f0f0;
+  font-size: 40px;
+  font-family: "Vazir";
+}
+.SpeedTest .disflex .reset {
+  color: #e9f0f0;
+  font-family: "Vazir";
+  border: 0px;
+  font-size: 20px;
+  background: rgb(27, 52, 77);
+  border-radius: 5px;
+  height: 40px;
+  width: 60px;
+}
+.SpeedTest .disflex .reset:hover {
+  transition: 0.5s;
+  background: #e9f0f0;
+  color: rgb(27, 52, 77);
+}/*# sourceMappingURL=main.css.map */
